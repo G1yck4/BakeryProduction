@@ -95,7 +95,7 @@ public class TestBakery {
                     break;
                 case 3:
                     Counter counter = new Counter(breadInventory, scanner);
-                    counter.startCounter(); // Ensure this method is called correctly
+                    counter.startCounter(); 
                     break;
 
                 case 4:

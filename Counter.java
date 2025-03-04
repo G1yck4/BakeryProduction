@@ -69,11 +69,11 @@ public class Counter {
         browseGoods();
 
         int breadChoice = 0;
-        String breadName = null; // Declare breadName here
+        String breadName = null; 
         while (true) {
             System.out.print("Enter the number of the bread: ");
             breadChoice = getValidIntegerInput();
-            breadName = getBreadName(breadChoice); // Assign breadName here
+            breadName = getBreadName(breadChoice);
             
             if (breadName != null) {
                 for (Bread bread : breadInventory.getBreadList()) {
@@ -85,7 +85,7 @@ public class Counter {
                         break; 
                     }
                 }
-                break; // Valid bread choice, exit the loop
+                break;
             } else {
                 System.out.println("Invalid bread choice. Please try again.");
             }
