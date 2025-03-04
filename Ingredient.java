@@ -7,7 +7,6 @@ public class Ingredient {
         this.quantity = quantity;
     }
 
-    // Getters and setters
     public String getName(){ 
         return name; 
     }
